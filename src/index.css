@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-ivory: #FFF9F0;
+    --forest-green: #234B3C;
+    --soft-coral: #E58B72;
+    --calm-gold: #C5A15A;
+    --charcoal-body: #333333;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Noto Sans KR', 'Noto Sans JP', 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+
+  html[lang="ko"] {
+    font-family: 'Noto Sans KR', 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    word-break: keep-all;
+  }
+
+  html[lang="ja"] {
+    font-family: 'Noto Sans JP', 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    word-break: auto-phrase;
+  }
+
+  html[lang="en"] {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+}
+
+/* Custom focus styles for accessibility */
+*:focus-visible {
+  outline: 2px solid #234B3C;
+  outline-offset: 2px;
+}
+
+/* Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

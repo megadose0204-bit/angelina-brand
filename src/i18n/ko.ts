@@ -1,0 +1,241 @@
+import { Translations } from './types.ts';
+
+export const ko: Translations = {
+  meta: {
+    title: '안졸리나 | 꿈을 기록하는 일상',
+    description: '배우고, 기록하고, 함께 떠나는 삶. 콘텐츠 크리에이터 안졸리나의 꿈과 5년 실천 계획을 소개하는 브랜드 홈페이지입니다.',
+  },
+  nav: {
+    brand: '안졸리나',
+    story: '나의 이야기',
+    dreams: '세 가지 꿈',
+    action: '실천 계획',
+    records: '꿈의 기록',
+    connect: '함께하기',
+    menuOpen: '메뉴 열기',
+    menuClose: '메뉴 닫기',
+    langSelectLabel: '언어 선택',
+  },
+  hero: {
+    kicker: 'ANGELINA BRAND STORY',
+    headline: '5년 뒤, 지금보다 더 설레는 나의 일상',
+    intro: '배우고, 기록하고, 함께 떠나는 삶. 콘텐츠와 강의로 사람들에게 도움을 전하고, 남편과 함께 만날 새로운 세상을 준비합니다.',
+    primaryCta: '나의 꿈 살펴보기',
+    secondaryCta: '오늘의 실천 보기',
+    aiImageBadge: 'AI로 그려본 꿈의 장면',
+  },
+  story: {
+    tag: 'ABOUT ME',
+    title: '좋아하는 일을 배우고, 경험을 나누는 사람',
+    p1: '저는 안졸리나입니다. 맛집과 생활용품처럼 일상에서 만나는 이야기를 블로그와 영상으로 기록하고 있습니다.',
+    p2: '앞으로는 시니어에게 도움이 되는 건강·생활 정보를 쉽게 정리하고, AI와 스마트폰으로 누구나 자신의 이야기를 콘텐츠로 만들도록 돕고 싶습니다.',
+    p3: '많이 알려진 사람보다, 누군가에게 도움이 되는 사람. 그런 마음으로 오늘의 경험을 차곡차곡 쌓아가고 있습니다.',
+    valuesTitle: '소중히 여기는 세 가지 마음',
+    values: [
+      {
+        title: '솔직한 경험',
+        desc: '직접 써보고 맛보며 느낀 장단점을 가감 없이 정직하게 나눕니다.',
+      },
+      {
+        title: '꾸준한 배움',
+        desc: '새로운 디지털 도구와 기술을 배우는 설렘을 일상에 더합니다.',
+      },
+      {
+        title: '따뜻한 나눔',
+        desc: '배운 지식을 이웃과 시니어 분들의 눈높이에 맞춰 쉽게 전달합니다.',
+      },
+    ],
+  },
+  dreams: {
+    tag: 'THREE DREAMS',
+    title: '차근차근 준비하는 세 가지 꿈',
+    subtitle: '앞으로 5년에 걸쳐 실현해 나가고 싶은 나의 지향점입니다.',
+    aiBadge: 'AI로 그려본 꿈의 장면',
+    cards: [
+      {
+        id: 'creator',
+        title: '경험을 나누는 콘텐츠 크리에이터',
+        body: '직접 경험한 맛집과 생활 정보를 사진·글·영상으로 전합니다. 좋았던 점과 아쉬웠던 점을 솔직하게 기록하며, 독자에게 도움이 되는 콘텐츠를 만들고 싶습니다.',
+        image: '/images/02-creator.png',
+        imageAlt: '콘텐츠를 정성껏 작성하고 편집하는 모습 (AI로 그려본 꿈의 장면)',
+        category: '콘텐츠 창작',
+      },
+      {
+        id: 'teaching',
+        title: '시니어의 시작을 돕는 AI 강사',
+        body: 'AI와 스마트폰을 어렵게 느끼는 분들에게 쉬운 말로 차근차근 알려드리고 싶습니다. 누구나 자신의 사진과 이야기를 콘텐츠로 표현하도록 돕는 강사로 성장하겠습니다.',
+        image: '/images/03-teaching.png',
+        imageAlt: '따뜻한 교실에서 스마트폰과 AI 활용법을 함께 배우는 모습 (AI로 그려본 꿈의 장면)',
+        category: '시니어 디지털 교육',
+      },
+      {
+        id: 'journey',
+        title: '남편과 함께하는 여행 기록자',
+        body: '남편 퇴직 후에는 국내와 세계 곳곳을 함께 여행하며 풍경과 음식을 경험하고 싶습니다. 둘이 쌓아가는 추억을 영상과 글로 나누겠습니다.',
+        image: '/images/05-journey.png',
+        imageAlt: '부부가 함께 새로운 여행지를 거닐며 풍경을 담는 모습 (AI로 그려본 꿈의 장면)',
+        category: '부부 여행 & 기록',
+      },
+    ],
+  },
+  action: {
+    tag: '5-STEP HABITS',
+    title: '미래의 꿈을 오늘의 습관으로',
+    notice: '※ 아래 수치와 계획은 현재 달성한 실적이 아니며, 꾸준히 지켜나갈 앞으로의 실천 목표입니다.',
+    steps: [
+      {
+        number: '01',
+        title: '블로그 방향 정하기',
+        desc: '맛집·여행·생활용품을 중심으로 내가 잘 쓰는 주제를 정리합니다.',
+      },
+      {
+        number: '02',
+        title: '주 3회 꾸준히 발행하기',
+        desc: '직접 찍은 사진과 솔직한 경험으로 가격·위치·장단점을 알기 쉽게 담는 것을 목표로 합니다.',
+      },
+      {
+        number: '03',
+        title: '체험단과의 신뢰 지키기',
+        desc: '방문일과 마감일을 기록하고, 약속한 일정과 광고 표시를 지킵니다.',
+      },
+      {
+        number: '04',
+        title: '블로그와 인스타그램 함께 키우기',
+        desc: '주 2회, 블로그 내용을 짧은 영상으로 연결하고 댓글로 소통하는 것을 목표로 합니다.',
+      },
+      {
+        number: '05',
+        title: '매달 한 가지 개선하기',
+        desc: '조회수·유입 키워드·인기 글을 확인해 다음 달에 집중할 주제를 정합니다.',
+      },
+    ],
+  },
+  roadmap: {
+    tag: '5-YEAR ROADMAP',
+    title: '5년 준비 과정',
+    subtitle: '조급해하지 않고 한 걸음씩 준비하는 여정',
+    notice: '이 계획은 가족의 일정과 생활 여건에 맞춰 유연하게 조정합니다.',
+    years: [
+      {
+        yearLabel: '1년 차',
+        title: '발행 습관과 신뢰 정착',
+        desc: '블로그 발행 습관과 체험단 일정 관리 정착',
+      },
+      {
+        yearLabel: '2년 차',
+        title: '기록 역량 다지기',
+        desc: '국내 근거리 여행을 사진과 영상으로 기록하는 연습',
+      },
+      {
+        yearLabel: '3년 차',
+        title: '역할의 확장',
+        desc: '강의 경험과 부부 여행·맛집 콘텐츠를 차근차근 확장',
+      },
+      {
+        yearLabel: '4년 차',
+        title: '여정의 구체화',
+        desc: '가고 싶은 나라, 여행 방식, 필요한 예산 구체화',
+      },
+      {
+        yearLabel: '5년 차',
+        title: '새로운 출발',
+        desc: '남편 퇴직 시점과 생활 여건에 맞춰 함께 여행 실행',
+      },
+    ],
+  },
+  records: {
+    tag: 'BLOG TRILOGY',
+    title: '꿈의 기록 — 블로그 3부작',
+    subtitle: '생각을 다듬고 미래를 준비하며 써 내려갈 이야기들',
+    statusScheduled: '연재 예정',
+    preparingNotice: '준비 중인 글입니다',
+    readArticle: '글 읽기',
+    articles: [
+      {
+        part: '1편',
+        title: '5년 뒤의 나에게, 지금보다 더 설레는 하루를 선물하고 싶다',
+        summary: '콘텐츠 크리에이터와 강사로 살아가고 싶은 마음을 기록합니다.',
+      },
+      {
+        part: '2편',
+        title: '5년 뒤의 꿈을 위해, 오늘 블로그에 글 한 편을 씁니다',
+        summary: '블로그와 체험단을 꾸준히 키우는 실천 계획을 소개합니다.',
+      },
+      {
+        part: '3편',
+        title: '남편 퇴직 후 함께 떠날 여행, 지금부터 준비합니다',
+        summary: '부부 여행의 꿈과 앞으로의 준비 과정을 이야기합니다.',
+      },
+    ],
+  },
+  gallery: {
+    tag: 'VISION GALLERY',
+    title: '꿈의 갤러리',
+    subtitle: '미래의 모습과 소망을 미리 그려본 장면들',
+    aiBadge: 'AI로 그려본 꿈의 장면',
+    expandHint: '클릭하여 크게 보기',
+    closeModal: '닫기 (ESC)',
+    items: [
+      {
+        id: '01-dream',
+        title: '꿈을 적는 시간',
+        desc: '노트에 5년 뒤의 꿈을 하나씩 적어 내려가며 새로운 내일을 계획하는 순간',
+        filename: '01-dream.png',
+        alt: '꿈을 적는 시간 - 미래를 향한 계획을 노트에 기록하는 모습',
+      },
+      {
+        id: '02-creator',
+        title: '콘텐츠를 만드는 일상',
+        desc: '정갈하게 정리한 리뷰와 사진으로 사람들에게 도움이 되는 글을 짓는 시간',
+        filename: '02-creator.png',
+        alt: '콘텐츠를 만드는 일상 - 카메라와 노트북으로 솔직한 경험을 기록하는 모습',
+      },
+      {
+        id: '03-teaching',
+        title: '함께 배우는 교실',
+        desc: '시니어 분들과 눈을 맞추며 스마트폰과 AI의 즐거움을 함께 나누는 교실',
+        filename: '03-teaching.png',
+        alt: '함께 배우는 교실 - 디지털 도구 활용법을 다정하게 안내하는 강의 현장',
+      },
+      {
+        id: '04-learning',
+        title: '새로운 도구를 익히는 과정',
+        desc: '나이와 상관없이 배우는 즐거움을 느끼며 매일 조금씩 성장하는 과정',
+        filename: '04-learning.png',
+        alt: '새로운 도구를 익히는 과정 - 차분하게 새로운 디지털 기술을 습득하는 모습',
+      },
+      {
+        id: '05-journey',
+        title: '미래를 향한 발걸음',
+        desc: '남편과 함께 낯선 여행지의 풍경 속을 천천히 거니는 설레는 미래',
+        filename: '05-journey.png',
+        alt: '미래를 향한 발걸음 - 은퇴 후 부부가 함께 여행을 떠나는 따스한 모습',
+      },
+    ],
+  },
+  video: {
+    tag: 'VIDEO INTRODUCTION',
+    title: '영상으로 전하는 소개',
+    desc: '안졸리나의 꿈과 일상을 담은 짧은 영상 클립입니다.',
+    notAvailable: '영상 파일이 준비되면 이곳에서 바로 시청하실 수 있습니다.',
+  },
+  connect: {
+    tag: 'STAY CONNECTED',
+    title: '함께하기',
+    desc: '배움과 여행, 일상의 이야기를 함께 나눠요.',
+    instagramCta: '인스타그램에서 만나기',
+    instagramHandle: '@heeya_reviewer',
+    blogCta: '네이버 블로그 바로가기',
+    blogHandle: 'blog.naver.com/chaos716',
+  },
+  footer: {
+    brand: '안졸리나 | 꿈을 기록하는 일상',
+    motto: '배우고, 기록하고, 함께 떠나는 삶',
+    copyright: 'All rights reserved.',
+    backToTop: '맨 위로 가기',
+  },
+  common: {
+    loading: '불러오는 중...',
+    imagePlaceholderHint: '안내: public/images 폴더에 해당 원본 이미지를 넣으면 선명하게 표시됩니다.',
+  },
+};

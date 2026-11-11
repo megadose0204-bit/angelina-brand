@@ -1,0 +1,241 @@
+import { Translations } from './types.ts';
+
+export const en: Translations = {
+  meta: {
+    title: 'Angelina | Recording Dreams in Daily Life',
+    description: 'A life of learning, storytelling, and shared adventures. The official brand homepage introducing creator Angelina’s 5-year journey and dreams.',
+  },
+  nav: {
+    brand: 'Angelina',
+    story: 'My Story',
+    dreams: 'Three Dreams',
+    action: 'Action Plan',
+    records: 'Records of Dreams',
+    connect: 'Connect',
+    menuOpen: 'Open Menu',
+    menuClose: 'Close Menu',
+    langSelectLabel: 'Select Language',
+  },
+  hero: {
+    kicker: 'ANGELINA BRAND STORY',
+    headline: 'Five Years From Now, a Life Filled with New Possibilities',
+    intro: 'A life of learning, storytelling, and shared adventures. I hope to help others through content and teaching, while preparing to explore the world with my husband.',
+    primaryCta: 'Explore My Dreams',
+    secondaryCta: 'View Today’s Habits',
+    aiImageBadge: 'AI-Envisioned Scene of Future Dreams',
+  },
+  story: {
+    tag: 'ABOUT ME',
+    title: 'Learning What I Love, Sharing What I Experience',
+    p1: 'I am Angelina. I record stories from everyday life, such as local eateries and helpful living items, through my blog and short videos.',
+    p2: 'Looking ahead, I hope to organize health and lifestyle information tailored for seniors, and guide people in creating their own stories using AI and smartphones.',
+    p3: 'Rather than seeking widespread fame, I wish to be someone truly helpful to others. With that sincere mindset, I step forward day by day.',
+    valuesTitle: 'Three Core Mindsets I Cherish',
+    values: [
+      {
+        title: 'Honest Experience',
+        desc: 'Sharing genuine pros and cons derived from personal, hands-on experiences.',
+      },
+      {
+        title: 'Continuous Learning',
+        desc: 'Embracing the excitement of learning new digital tools and technologies every day.',
+      },
+      {
+        title: 'Warm Sharing',
+        desc: 'Translating newly acquired knowledge into accessible, friendly guidance for seniors and neighbors.',
+      },
+    ],
+  },
+  dreams: {
+    tag: 'THREE DREAMS',
+    title: 'Three Dreams Prepared Step by Step',
+    subtitle: 'The meaningful directions I aspire to cultivate over the coming five years.',
+    aiBadge: 'AI-Envisioned Scene of Future Dreams',
+    cards: [
+      {
+        id: 'creator',
+        title: 'A Content Creator Sharing Genuine Experiences',
+        body: 'Sharing honest experiences of neighborhood eateries and daily living products through photos, writing, and video. By recording both the good and the shortcomings, I strive to create content that genuinely helps readers.',
+        image: '/images/02-creator.png',
+        imageAlt: 'Writing and curating genuine lifestyle reviews with care (AI-envisioned scene)',
+        category: 'Content Creation',
+      },
+      {
+        id: 'teaching',
+        title: 'An AI Instructor Helping Seniors Begin',
+        body: 'I want to guide those who find AI and smartphones daunting, using clear, patient language. My goal is to become an instructor who empowers anyone to express their memories and photos into personal content.',
+        image: '/images/03-teaching.png',
+        imageAlt: 'A warm classroom setting sharing smartphone and AI knowledge (AI-envisioned scene)',
+        category: 'Senior Digital Guidance',
+      },
+      {
+        id: 'journey',
+        title: 'A Travel Chronicler Journeying with My Husband',
+        body: 'After my husband retires, I hope to travel domestic and worldwide destinations together, experiencing distinct landscapes and cuisines. We will share the memories we build through video and writing.',
+        image: '/images/05-journey.png',
+        imageAlt: 'A couple taking a scenic walk while capturing memories together (AI-envisioned scene)',
+        category: 'Couples Travel & Record',
+      },
+    ],
+  },
+  action: {
+    tag: '5-STEP HABITS',
+    title: 'Turning Future Dreams into Daily Habits',
+    notice: '※ The steps below represent continuous practice goals and future habits, not completed historical metrics.',
+    steps: [
+      {
+        number: '01',
+        title: 'Defining the Blog’s Focus',
+        desc: 'Focusing on topics I write best: culinary experiences, travel, and everyday living items.',
+      },
+      {
+        number: '02',
+        title: 'Publishing 3 Times a Week with Consistency',
+        desc: 'Aiming to share original photos and honest evaluations detailing prices, locations, and real pros & cons.',
+      },
+      {
+        number: '03',
+        title: 'Upholding Trust in Review Partnerships',
+        desc: 'Keeping reliable schedules for visit dates and deadlines, adhering strictly to transparent sponsorship disclosures.',
+      },
+      {
+        number: '04',
+        title: 'Growing Blog & Instagram in Harmony',
+        desc: 'Aiming to create two short video snippets weekly connected to blog articles and engage actively with readers.',
+      },
+      {
+        number: '05',
+        title: 'Monthly Reflection & Continuous Improvement',
+        desc: 'Reviewing views, search keywords, and reader interest each month to choose focused priorities for the next.',
+      },
+    ],
+  },
+  roadmap: {
+    tag: '5-YEAR ROADMAP',
+    title: '5-Year Preparation Journey',
+    subtitle: 'A steady path taken one deliberate step at a time',
+    notice: 'This plan will be adjusted flexibly in line with family schedules and life circumstances.',
+    years: [
+      {
+        yearLabel: 'Year 1',
+        title: 'Publishing Habits & Trust',
+        desc: 'Establishing reliable blogging routines and review schedule management',
+      },
+      {
+        yearLabel: 'Year 2',
+        title: 'Strengthening Storytelling',
+        desc: 'Practicing photo and video documentation through domestic short-distance travels',
+      },
+      {
+        yearLabel: 'Year 3',
+        title: 'Expanding Roles',
+        desc: 'Gradually expanding teaching experiences and couple travel & culinary stories',
+      },
+      {
+        yearLabel: 'Year 4',
+        title: 'Refining the Vision',
+        desc: 'Specifying destination wishlists, travel styles, and necessary budgets',
+      },
+      {
+        yearLabel: 'Year 5',
+        title: 'A New Chapter',
+        desc: 'Embarking on journeys together aligned with retirement timing and life conditions',
+      },
+    ],
+  },
+  records: {
+    tag: 'BLOG TRILOGY',
+    title: 'Records of Dreams — Blog Trilogy',
+    subtitle: 'Reflections and articles written while preparing for the future',
+    statusScheduled: 'Coming Soon',
+    preparingNotice: 'Article in Preparation',
+    readArticle: 'Read Article',
+    articles: [
+      {
+        part: 'Part 1',
+        title: 'To Myself Five Years From Now: Gifting a Day More Thrilling than Today',
+        summary: 'Reflecting on the heart and aspiration to live as a content creator and senior digital mentor.',
+      },
+      {
+        part: 'Part 2',
+        title: 'For the Five-Year Dream, Today I Write One Article on My Blog',
+        summary: 'Outlining deliberate daily action steps to grow the blog and maintain trust in review engagements.',
+      },
+      {
+        part: 'Part 3',
+        title: 'Preparing Now for the Travels We Will Embark on After Retirement',
+        summary: 'Envisioning the dream of couple travel and detailing the practical steps to make it reality.',
+      },
+    ],
+  },
+  gallery: {
+    tag: 'VISION GALLERY',
+    title: 'Gallery of Envisioned Dreams',
+    subtitle: 'Visualizing future aspirations and meaningful milestones',
+    aiBadge: 'AI-Envisioned Scene of Future Dreams',
+    expandHint: 'Click to view enlarged',
+    closeModal: 'Close (ESC)',
+    items: [
+      {
+        id: '01-dream',
+        title: 'Time to Envision Dreams',
+        desc: 'Sitting quietly with a journal, jotting down five-year aspirations and planning tomorrow.',
+        filename: '01-dream.png',
+        alt: 'Time to Envision Dreams - Quiet moments journaling future aspirations',
+      },
+      {
+        id: '02-creator',
+        title: 'Everyday Life of Creating',
+        desc: 'Crafting thoughtful reviews with camera and laptop to provide genuine value to readers.',
+        filename: '02-creator.png',
+        alt: 'Everyday Life of Creating - Writing helpful articles with camera and notebook',
+      },
+      {
+        id: '03-teaching',
+        title: 'Learning Together in Class',
+        desc: 'Connecting with seniors eye-to-eye and sharing the simple joy of smartphones and AI.',
+        filename: '03-teaching.png',
+        alt: 'Learning Together in Class - Patient digital education session for seniors',
+      },
+      {
+        id: '04-learning',
+        title: 'Mastering New Tools',
+        desc: 'Embracing the excitement of learning at any age, growing a little each day.',
+        filename: '04-learning.png',
+        alt: 'Mastering New Tools - Diligently exploring new digital apps and workflows',
+      },
+      {
+        id: '05-journey',
+        title: 'Steps Toward Tomorrow',
+        desc: 'Taking gentle strolls through new travel landscapes hand in hand with my husband.',
+        filename: '05-journey.png',
+        alt: 'Steps Toward Tomorrow - A couple walking peacefully on a future journey',
+      },
+    ],
+  },
+  video: {
+    tag: 'VIDEO INTRODUCTION',
+    title: 'Video Introduction',
+    desc: 'A brief visual introduction highlighting Angelina’s dreams and daily habits.',
+    notAvailable: 'When the introduction video file is ready, you will be able to watch it right here.',
+  },
+  connect: {
+    tag: 'STAY CONNECTED',
+    title: 'Connect & Share',
+    desc: 'Let’s share stories of learning, travel, and everyday life together.',
+    instagramCta: 'Connect on Instagram',
+    instagramHandle: '@heeya_reviewer',
+    blogCta: 'Visit My Naver Blog',
+    blogHandle: 'blog.naver.com/chaos716',
+  },
+  footer: {
+    brand: 'Angelina | Recording Dreams in Daily Life',
+    motto: 'A life of learning, storytelling, and shared adventures',
+    copyright: 'All rights reserved.',
+    backToTop: 'Back to Top',
+  },
+  common: {
+    loading: 'Loading...',
+    imagePlaceholderHint: 'Note: Place the original image file into public/images to display here.',
+  },
+};

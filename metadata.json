@@ -1,0 +1,6 @@
+{
+  "name": "안졸리나 | 꿈을 기록하는 일상",
+  "description": "배우고, 기록하고, 함께 떠나는 삶. 콘텐츠 크리에이터 안졸리나의 꿈과 5년 실천 계획을 소개하는 다국어 브랜드 홈페이지.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
